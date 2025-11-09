@@ -21,7 +21,7 @@ const MessageInput: React.FC<Props> = memo(({ roomId }) => {
           value={text}
           onChange={handleChange}
           onEnter={handleSend}
-          placeholder={intl.formatMessage({ id: 'message.input.paceholder' })}
+          placeholder={intl.formatMessage({ id: 'message.input.placeholder' })}
           size="middle"
         />
         {error && <div className={styles.error}>{error}</div>}

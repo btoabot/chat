@@ -13,9 +13,9 @@ const IntlProvider = (props: IIntlProps): ReactNode => {
 
   return (
     <P
-      messages={catalogs[AppLanguages.EN]}
-      locale={AppLanguages.EN}
-      defaultLocale={AppLanguages.EN}
+      messages={catalogs[AppLanguages.UA]}
+      locale={AppLanguages.UA}
+      defaultLocale={AppLanguages.UA}
       onError={onError}
     >
       {children}
