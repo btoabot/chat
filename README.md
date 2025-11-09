@@ -4,7 +4,7 @@
 
 <h1>Chat</h1>
 
-An enterprise-class UI design language and React UI library.
+<p>A real-time messaging application with seamless WebSocket communication, featuring modern React frontend and nodejs server.</p>
 
 </div>
 
