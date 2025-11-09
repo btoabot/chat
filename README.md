@@ -23,4 +23,4 @@ npm run dev
 
 ## 🔨 Demos
 
-![](https://github.com/btoabot/chat/raw/master/assets/demo_file.mp4)
+![](https://github.com/user-attachments/assets/0c2ce311-81e5-4497-9f1d-fa7eb0728a75)
