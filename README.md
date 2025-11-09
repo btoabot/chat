@@ -21,3 +21,6 @@ npm run install:all
 npm run dev
 ```
 
+## 🔨 Demos
+
+![](https://github.com/btoabot/chat/raw/master/assets/demo_file.mp4)
