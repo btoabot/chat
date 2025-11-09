@@ -1,0 +1,52 @@
+.userSetup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.input {
+  color: var(--text);
+  background-color: var(--selection-bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  line-height: 1.4;
+  padding: 0 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease;
+  width: 100%;
+  height: 36px;
+  transition: all 0.2s ease;
+
+  &:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(22, 119, 255, 0.15);
+  }
+}
+
+.name {
+  font-size: 14px;
+  color: var(--text-color, #333);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.error {
+  color: #ff4d4f;
+  font-size: 12px;
+  margin-top: 4px;
+  padding-left: 4px;
+  line-height: 1.2;
+  position: absolute;
+  bottom: -18px;
+}
+
+.inputField {
+  position: relative;
+}

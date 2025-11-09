@@ -1,0 +1,72 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Webpack cache
+.cache/
+.cache-loader/
+
+# Rive files cache (optional, если есть)
+*.riv
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jest cache and coverage
+coverage/
+jest-cache/
+
+# Misc
+*.swp
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Editor backups
+*~
+*.bak
+
+# ESLint cache
+.eslintcache
+
+# prettier cache
+.prettiercache
+
+# yarn v2+ cache
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

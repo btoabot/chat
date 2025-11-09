@@ -1,0 +1,58 @@
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--toggle-bg);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
+  overflow: hidden;
+
+  &:hover {
+    background-color: var(--toggle-hover-bg);
+  }
+}
+
+.iconWrapper {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.sun,
+.moon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+  font-size: 18px;
+}
+
+.sun {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.moon {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.dark .sun {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.dark .moon {
+  opacity: 1;
+  transform: translateY(0);
+}

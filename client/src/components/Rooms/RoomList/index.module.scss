@@ -1,0 +1,12 @@
+.roomList {
+  min-height: 100%;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    padding: 6px;
+    cursor: pointer;
+  }
+}

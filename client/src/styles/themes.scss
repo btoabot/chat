@@ -1,0 +1,25 @@
+@use 'styles/variables' as *;
+
+:root {
+  --primary: #{$light-primary};
+  --bg: #{$light-bg};
+  --text: #{$text-color-light};
+  --border-color: #{$border-color-light};
+  --selection-bg-color: #{$selection-bg-color-light};
+  --disabled-text-color: #{$text-color-disabled-light};
+  --text-color-secondary: #{$text-color-secondary-light};
+  --toggle-bg: #{$toggle-bg-light};
+  --toggle-hover-bg: #{$toggle-hover-bg-light};
+}
+
+[data-theme='dark'] {
+  --primary: #{$dark-primary};
+  --bg: #{$dark-bg};
+  --text: #{$text-color-dark};
+  --border-color: #{$border-color-dark};
+  --disabled-text-color: #{$text-color-disabled-dark};
+  --selection-bg-color: #{$selection-bg-color-dark};
+  --text-color-secondary: #{$text-color-secondary-dark};
+  --toggle-bg: #{$toggle-bg-dark};
+  --toggle-hover-bg: #{$toggle-hover-bg-dark};
+}

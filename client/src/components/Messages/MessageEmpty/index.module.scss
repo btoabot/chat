@@ -1,0 +1,21 @@
+.emptyWrapper {
+  height: 100%;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 12px;
+  text-align: center;
+  background-color: var(--selection-bg-color);
+  border-radius: 8px;
+  padding: 16px;
+  min-height: 200px;
+  max-width: 800px;
+}
+
+.textBlock {
+  max-width: 640px;
+}

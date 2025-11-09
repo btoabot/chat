@@ -1,0 +1,28 @@
+.messageWrapper {
+  width: 100%;
+}
+
+.message {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  display: flex;
+  line-height: 20px;
+  &.own {
+    justify-content: flex-end;
+    text-align: right;
+    align-items: end;
+
+    .content {
+      align-items: flex-end;
+    }
+  }
+
+  .text {
+    background-color: var(--selection-bg-color);
+    padding: 8px 12px;
+    border-radius: 8px;
+    min-width: 150px;
+    text-align: left;
+    max-width: 400px;
+  }
+}

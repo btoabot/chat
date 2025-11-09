@@ -1,0 +1,46 @@
+{
+  "name": "chat-client",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,scss,css,json,md}'"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@rive-app/react-canvas": "^4.23.4",
+    "canvas-confetti": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intl": "^7.1.14",
+    "react-redux": "^8.1.0",
+    "redux-saga": "^1.2.3"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.3",
+    "@typescript-eslint/parser": "^8.46.3",
+    "css-loader": "^6.8.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "html-webpack-plugin": "^5.5.1",
+    "prettier": "^3.6.2",
+    "sass": "^1.93.3",
+    "sass-loader": "^16.0.6",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0"
+  }
+}

@@ -1,0 +1,16 @@
+@use 'styles/variables' as *;
+@use 'styles/themes' as *;
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: sans-serif;
+  margin: 0;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
